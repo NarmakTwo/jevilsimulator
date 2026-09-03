@@ -353,7 +353,7 @@ const HEADS = ['spr_headkris', 'spr_headsusie', 'spr_headralsei'];
 const NAMES = ['spr_bnamekris', 'spr_bnamesusie', 'spr_bnameralsei'];
 
 const trail = { apparent: 0, current: 0, changetimer: 0, x: -40, sp: 13 };
-const HP_MAP = '0123456789+-';
+const HP_MAP = '0123456789-+';
 
 function drawHpNum(ctx, str, x, y, color) {
   const s = String(str);
